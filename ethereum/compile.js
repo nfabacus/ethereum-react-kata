@@ -2,7 +2,7 @@ const path = require('path'); //for cross platform compatibility
 const solc = require('solc');
 const fs = require('fs-extra'); //for accessing local file system.
 
-const buildPath = path.resolve(__dirname, 'build');
+const buildPath = path.resolve(__dirname, '../src/ethereum/build');
 fs.removeSync(buildPath); 
 // Here checking if there is a pre-existing 'build' folder.  If so, delete it first.
 //fs-extra module makes easy to remove an entire folder like above.

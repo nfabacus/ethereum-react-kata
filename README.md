@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - Use Create-react-app to build an app
 2. install libraries
 ```
-npm install --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.34 dotenv truffle-hdwallet-provider
+npm install --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.34 dotenv truffle-hdwallet-provider@0.0.3
 ```
 3. Make a contract using remix
     http://remix.ethereum.org/#optimize=false&version=soljson-v0.4.24+commit.e67f0147.js
